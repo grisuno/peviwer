@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>readpe loader.exe -f html</title>
+</head>
+<body>
+    <div class="object">
+        <h2>DOS Header</h2>
+        <p><span class="key"><b>Magic number</b></span>: <span class="value">0x5a4d (MZ)</span></p>
+        <p><span class="key"><b>Bytes in last page</b></span>: <span class="value">144</span></p>
+        <p><span class="key"><b>Pages in file</b></span>: <span class="value">3</span></p>
+        <p><span class="key"><b>Relocations</b></span>: <span class="value">0</span></p>
+        <p><span class="key"><b>Size of header in paragraphs</b></span>: <span class="value">4</span></p>
+        <p><span class="key"><b>Minimum extra paragraphs</b></span>: <span class="value">0</span></p>
+        <p><span class="key"><b>Maximum extra paragraphs</b></span>: <span class="value">65535</span></p>
+        <p><span class="key"><b>Initial (relative) SS value</b></span>: <span class="value">0</span></p>
+        <p><span class="key"><b>Initial SP value</b></span>: <span class="value">0xb8</span></p>
+        <p><span class="key"><b>Initial IP value</b></span>: <span class="value">0</span></p>
+        <p><span class="key"><b>Initial (relative) CS value</b></span>: <span class="value">0</span></p>
+        <p><span class="key"><b>Address of relocation table</b></span>: <span class="value">0x40</span></p>
+        <p><span class="key"><b>Overlay number</b></span>: <span class="value">0</span></p>
+        <p><span class="key"><b>OEM identifier</b></span>: <span class="value">0</span></p>
+        <p><span class="key"><b>OEM information</b></span>: <span class="value">0</span></p>
+        <p><span class="key"><b>PE header offset</b></span>: <span class="value">0x80</span></p>
+    </div>
+    <div class="object">
+        <h2>PE header</h2>
+        <p><span class="key"><b>Signature</b></span>: <span class="value">0x00004550 (PE)</span></p>
+    </div>
+    <div class="object">
+        <h2>COFF/File header</h2>
+        <p><span class="key"><b>Machine</b></span>: <span class="value">0x8664 IMAGE_FILE_MACHINE_AMD64</span></p>
+        <p><span class="key"><b>Number of sections</b></span>: <span class="value">18</span></p>
+        <p><span class="key"><b>Date/time stamp</b></span>: <span class="value">1759138219 (Mon, 29 Sep 2025 09:30:19 UTC)</span></p>
+        <p><span class="key"><b>Symbol Table offset</b></span>: <span class="value">0x35000</span></p>
+        <p><span class="key"><b>Number of symbols</b></span>: <span class="value">2482</span></p>
+        <p><span class="key"><b>Size of optional header</b></span>: <span class="value">0xf0</span></p>
+        <p><span class="key"><b>Characteristics</b></span>: <span class="value">0x26</span></p>
+        <div class="array">
+            <h2>Characteristics names</h2>
+            <ul>
+                <li><span class="value">IMAGE_FILE_EXECUTABLE_IMAGE</span></li>
+                <li><span class="value">IMAGE_FILE_LINE_NUMS_STRIPPED</span></li>
+                <li><span class="value">IMAGE_FILE_LARGE_ADDRESS_AWARE</span></li>
+            </ul>
+        </div>
+    </div>
+    <div class="object">
+        <h2>Optional/Image header</h2>
+        <p><span class="key"><b>Magic number</b></span>: <span class="value">0x20b (PE32+)</span></p>
+        <p><span class="key"><b>Linker major version</b></span>: <span class="value">2</span></p>
+        <p><span class="key"><b>Linker minor version</b></span>: <span class="value">44</span></p>
+        <p><span class="key"><b>Size of .text section</b></span>: <span class="value">0x8c00</span></p>
+        <p><span class="key"><b>Size of .data section</b></span>: <span class="value">0x3a00</span></p>
+        <p><span class="key"><b>Size of .bss section</b></span>: <span class="value">0x1400</span></p>
+        <p><span class="key"><b>Entrypoint</b></span>: <span class="value">0x13f0</span></p>
+        <p><span class="key"><b>Address of .text section</b></span>: <span class="value">0x1000</span></p>
+        <p><span class="key"><b>ImageBase</b></span>: <span class="value">0x140000000</span></p>
+        <p><span class="key"><b>Alignment of sections</b></span>: <span class="value">0x1000</span></p>
+        <p><span class="key"><b>Alignment factor</b></span>: <span class="value">0x200</span></p>
+        <p><span class="key"><b>Major version of required OS</b></span>: <span class="value">4</span></p>
+        <p><span class="key"><b>Minor version of required OS</b></span>: <span class="value">0</span></p>
+        <p><span class="key"><b>Major version of image</b></span>: <span class="value">0</span></p>
+        <p><span class="key"><b>Minor version of image</b></span>: <span class="value">0</span></p>
+        <p><span class="key"><b>Major version of subsystem</b></span>: <span class="value">5</span></p>
+        <p><span class="key"><b>Minor version of subsystem</b></span>: <span class="value">2</span></p>
+        <div class="object">
+            <h2>Win32 version value:             0</h2>
+            <p><span class="key"><b>Overwrite OS major version</b></span>: <span class="value">(default)</span></p>
+            <p><span class="key"><b>Overwrite OS minor version</b></span>: <span class="value">(default)</span></p>
+            <p><span class="key"><b>Overwrite OS build number</b></span>: <span class="value">(default)</span></p>
+            <p><span class="key"><b>Overwrite OS platform id</b></span>: <span class="value">(default)</span></p>
+        </div>
+        <p><span class="key"><b>Size of image</b></span>: <span class="value">0x41000</span></p>
+        <p><span class="key"><b>Size of headers</b></span>: <span class="value">0x600</span></p>
+        <p><span class="key"><b>Checksum</b></span>: <span class="value">0x47762</span></p>
+        <p><span class="key"><b>Subsystem required</b></span>: <span class="value">0x3 (IMAGE_SUBSYSTEM_WINDOWS_CUI)</span></p>
+        <p><span class="key"><b>DLL characteristics</b></span>: <span class="value">0x160</span></p>
+        <div class="array">
+            <h2>DLL characteristics names</h2>
+            <ul>
+                <li><span class="value">IMAGE_DLLCHARACTERISTICS_HIGH_ENTROPY_VA</span></li>
+                <li><span class="value">IMAGE_DLLCHARACTERISTICS_DYNAMIC_BASE</span></li>
+                <li><span class="value">IMAGE_DLLCHARACTERISTICS_NX_COMPAT</span></li>
+            </ul>
+        </div>
+        <p><span class="key"><b>Size of stack to reserve</b></span>: <span class="value">0x200000</span></p>
+        <p><span class="key"><b>Size of stack to commit</b></span>: <span class="value">0x1000</span></p>
+        <p><span class="key"><b>Size of heap space to reserve</b></span>: <span class="value">0x100000</span></p>
+        <p><span class="key"><b>Size of heap space to commit</b></span>: <span class="value">0x1000</span></p>
+        <p><span class="key"><b>Loader Flags</b></span>: <span class="value">0</span></p>
+        <div class="array">
+            <h2>Loader Flags names</h2>
+            <ul>
+            </ul>
+        </div>
+    </div>
+    <div class="array">
+        <h2>Data directories</h2>
+        <ul>
+            <li class="object">
+                <h2>Directory</h2>
+                <p><span class="key"><b>IMAGE_DIRECTORY_ENTRY_IMPORT</b></span>: <span class="value">0x11000 (3764 bytes)</span></p>
+            </li>
+            <li class="object">
+                <h2>Directory</h2>
+                <p><span class="key"><b>IMAGE_DIRECTORY_ENTRY_EXCEPTION</b></span>: <span class="value">0xd000 (1440 bytes)</span></p>
+            </li>
+            <li class="object">
+                <h2>Directory</h2>
+                <p><span class="key"><b>IMAGE_DIRECTORY_ENTRY_BASERELOC</b></span>: <span class="value">0x13000 (124 bytes)</span></p>
+            </li>
+            <li class="object">
+                <h2>Directory</h2>
+                <p><span class="key"><b>IMAGE_DIRECTORY_ENTRY_TLS</b></span>: <span class="value">0xb840 (40 bytes)</span></p>
+            </li>
+            <li class="object">
+                <h2>Directory</h2>
+                <p><span class="key"><b>IMAGE_DIRECTORY_ENTRY_IAT</b></span>: <span class="value">0x113a8 (816 bytes)</span></p>
+            </li>
+        </ul>
+    </div>
+    <div class="array">
+        <h2>Imported functions</h2>
+        <ul>
+            <li class="object">
+                <h2>Library</h2>
+                <p><span class="key"><b>Name</b></span>: <span class="value">ADVAPI32.dll</span></p>
+                <div class="array">
+                    <h2>Functions</h2>
+                    <ul>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">194</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">CryptAcquireContextW</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">196</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">CryptCreateHash</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">197</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">CryptDecrypt</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">198</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">CryptDeriveKey</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">199</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">CryptDestroyHash</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">200</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">CryptDestroyKey</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">217</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">CryptHashData</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">220</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">CryptReleaseContext</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">222</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">CryptSetKeyParam</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">614</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">RegCloseKey</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">637</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">RegDeleteValueA</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">662</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">RegOpenKeyExA</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">675</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">RegQueryValueExA</span></p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="object">
+                <h2>Library</h2>
+                <p><span class="key"><b>Name</b></span>: <span class="value">KERNEL32.dll</span></p>
+                <div class="array">
+                    <h2>Functions</h2>
+                    <ul>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">148</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">CloseHandle</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">244</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">CreateProcessA</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">260</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">CreateThread</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">292</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">DeleteCriticalSection</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">330</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">EnterCriticalSection</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">377</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">ExitProcess</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">378</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">ExitThread</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">564</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">GetCurrentProcess</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">643</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">GetLastError</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">663</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">GetModuleFileNameA</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">665</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">GetModuleHandleA</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">725</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">GetProcAddress</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">820</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">GetTickCount</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">873</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">GlobalMemoryStatusEx</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">913</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">InitializeCriticalSection</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">940</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">IsDBCSLeadByteEx</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">941</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">IsDebuggerPresent</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">982</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">K32GetModuleInformation</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">1007</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">LeaveCriticalSection</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">1011</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">LoadLibraryA</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">1020</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">LocalAlloc</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">1025</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">LocalFree</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">1059</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">MultiByteToWideChar</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">1199</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">ReadProcessMemory</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">1427</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">SetUnhandledExceptionFilter</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">1443</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">Sleep</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">1459</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">TerminateProcess</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">1479</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">TlsGetValue</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">1520</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">VirtualAlloc</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">1523</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">VirtualFree</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">1526</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">VirtualProtect</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">1528</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">VirtualQuery</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">1537</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">WaitForSingleObject</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">1581</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">WideCharToMultiByte</span></p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="object">
+                <h2>Library</h2>
+                <p><span class="key"><b>Name</b></span>: <span class="value">msvcrt.dll</span></p>
+                <div class="array">
+                    <h2>Functions</h2>
+                    <ul>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">106</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">__C_specific_handler</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">126</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">___lc_codepage_func</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">129</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">___mb_cur_max_func</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">146</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">__getmainargs</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">147</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">__initenv</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">148</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">__iob_func</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">161</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">__set_app_type</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">163</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">__setusermatherr</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">192</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">_amsg_exit</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">211</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">_cexit</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">225</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">_commode</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">267</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">_errno</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">301</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">_fmode</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">380</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">_initterm</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">483</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">_lock</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">652</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">_onexit</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">754</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">_stricmp</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">943</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">_unlock</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">1041</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">abort</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">1054</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">atoi</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">1057</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">calloc</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">1069</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">exit</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">1076</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">fflush</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">1087</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">fprintf</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">1088</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">fputc</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">1093</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">free</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">1101</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">fwrite</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">1139</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">localeconv</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">1146</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">malloc</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">1152</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">memcpy</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">1154</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">memset</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">1170</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">realloc</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">1179</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">signal</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">1187</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">srand</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">1195</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">strerror</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">1197</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">strlen</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">1199</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">strncmp</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">1204</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">strstr</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">1220</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">system</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">1233</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">vfprintf</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">1251</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">wcslen</span></p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="object">
+                <h2>Library</h2>
+                <p><span class="key"><b>Name</b></span>: <span class="value">SHELL32.dll</span></p>
+                <div class="array">
+                    <h2>Functions</h2>
+                    <ul>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">10</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">CommandLineToArgvW</span></p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="object">
+                <h2>Library</h2>
+                <p><span class="key"><b>Name</b></span>: <span class="value">WINHTTP.dll</span></p>
+                <div class="array">
+                    <h2>Functions</h2>
+                    <ul>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">8</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">WinHttpCloseHandle</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">9</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">WinHttpConnect</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">38</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">WinHttpOpen</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">39</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">WinHttpOpenRequest</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">56</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">WinHttpQueryDataAvailable</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">59</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">WinHttpReadData</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">62</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">WinHttpReceiveResponse</span></p>
+                        </li>
+                        <li class="object">
+                            <h2>Function</h2>
+                            <p><span class="key"><b>Hint</b></span>: <span class="value">65</span></p>
+                            <p><span class="key"><b>Name</b></span>: <span class="value">WinHttpSendRequest</span></p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="array">
+        <h2>Exported functions</h2>
+        <ul>
+        </ul>
+    </div>
+    <div class="array">
+        <h2>Sections</h2>
+        <ul>
+            <li class="object">
+                <h2>Section</h2>
+                <p><span class="key"><b>Name</b></span>: <span class="value">.text</span></p>
+                <p><span class="key"><b>Virtual Size</b></span>: <span class="value">0x8a90 (35472 bytes)</span></p>
+                <p><span class="key"><b>Virtual Address</b></span>: <span class="value">0x1000</span></p>
+                <p><span class="key"><b>Size Of Raw Data</b></span>: <span class="value">0x8c00 (35840 bytes)</span></p>
+                <p><span class="key"><b>Pointer To Raw Data</b></span>: <span class="value">0x600</span></p>
+                <p><span class="key"><b>Number Of Relocations</b></span>: <span class="value">0</span></p>
+                <p><span class="key"><b>Characteristics</b></span>: <span class="value">0x60000020</span></p>
+                <div class="array">
+                    <h2>Characteristic Names</h2>
+                    <ul>
+                        <li><span class="value">IMAGE_SCN_CNT_CODE</span></li>
+                        <li><span class="value">IMAGE_SCN_MEM_EXECUTE</span></li>
+                        <li><span class="value">IMAGE_SCN_MEM_READ</span></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="object">
+                <h2>Section</h2>
+                <p><span class="key"><b>Name</b></span>: <span class="value">.data</span></p>
+                <p><span class="key"><b>Virtual Size</b></span>: <span class="value">0xc0 (192 bytes)</span></p>
+                <p><span class="key"><b>Virtual Address</b></span>: <span class="value">0xa000</span></p>
+                <p><span class="key"><b>Size Of Raw Data</b></span>: <span class="value">0x200 (512 bytes)</span></p>
+                <p><span class="key"><b>Pointer To Raw Data</b></span>: <span class="value">0x9200</span></p>
+                <p><span class="key"><b>Number Of Relocations</b></span>: <span class="value">0</span></p>
+                <p><span class="key"><b>Characteristics</b></span>: <span class="value">0xc0000040</span></p>
+                <div class="array">
+                    <h2>Characteristic Names</h2>
+                    <ul>
+                        <li><span class="value">IMAGE_SCN_CNT_INITIALIZED_DATA</span></li>
+                        <li><span class="value">IMAGE_SCN_MEM_READ</span></li>
+                        <li><span class="value">IMAGE_SCN_MEM_WRITE</span></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="object">
+                <h2>Section</h2>
+                <p><span class="key"><b>Name</b></span>: <span class="value">.rdata</span></p>
+                <p><span class="key"><b>Virtual Size</b></span>: <span class="value">0x1648 (5704 bytes)</span></p>
+                <p><span class="key"><b>Virtual Address</b></span>: <span class="value">0xb000</span></p>
+                <p><span class="key"><b>Size Of Raw Data</b></span>: <span class="value">0x1800 (6144 bytes)</span></p>
+                <p><span class="key"><b>Pointer To Raw Data</b></span>: <span class="value">0x9400</span></p>
+                <p><span class="key"><b>Number Of Relocations</b></span>: <span class="value">0</span></p>
+                <p><span class="key"><b>Characteristics</b></span>: <span class="value">0x40000040</span></p>
+                <div class="array">
+                    <h2>Characteristic Names</h2>
+                    <ul>
+                        <li><span class="value">IMAGE_SCN_CNT_INITIALIZED_DATA</span></li>
+                        <li><span class="value">IMAGE_SCN_MEM_READ</span></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="object">
+                <h2>Section</h2>
+                <p><span class="key"><b>Name</b></span>: <span class="value">.pdata</span></p>
+                <p><span class="key"><b>Virtual Size</b></span>: <span class="value">0x5a0 (1440 bytes)</span></p>
+                <p><span class="key"><b>Virtual Address</b></span>: <span class="value">0xd000</span></p>
+                <p><span class="key"><b>Size Of Raw Data</b></span>: <span class="value">0x600 (1536 bytes)</span></p>
+                <p><span class="key"><b>Pointer To Raw Data</b></span>: <span class="value">0xac00</span></p>
+                <p><span class="key"><b>Number Of Relocations</b></span>: <span class="value">0</span></p>
+                <p><span class="key"><b>Characteristics</b></span>: <span class="value">0x40000040</span></p>
+                <div class="array">
+                    <h2>Characteristic Names</h2>
+                    <ul>
+                        <li><span class="value">IMAGE_SCN_CNT_INITIALIZED_DATA</span></li>
+                        <li><span class="value">IMAGE_SCN_MEM_READ</span></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="object">
+                <h2>Section</h2>
+                <p><span class="key"><b>Name</b></span>: <span class="value">.xdata</span></p>
+                <p><span class="key"><b>Virtual Size</b></span>: <span class="value">0x564 (1380 bytes)</span></p>
+                <p><span class="key"><b>Virtual Address</b></span>: <span class="value">0xe000</span></p>
+                <p><span class="key"><b>Size Of Raw Data</b></span>: <span class="value">0x600 (1536 bytes)</span></p>
+                <p><span class="key"><b>Pointer To Raw Data</b></span>: <span class="value">0xb200</span></p>
+                <p><span class="key"><b>Number Of Relocations</b></span>: <span class="value">0</span></p>
+                <p><span class="key"><b>Characteristics</b></span>: <span class="value">0x40000040</span></p>
+                <div class="array">
+                    <h2>Characteristic Names</h2>
+                    <ul>
+                        <li><span class="value">IMAGE_SCN_CNT_INITIALIZED_DATA</span></li>
+                        <li><span class="value">IMAGE_SCN_MEM_READ</span></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="object">
+                <h2>Section</h2>
+                <p><span class="key"><b>Name</b></span>: <span class="value">.bss</span></p>
+                <p><span class="key"><b>Virtual Size</b></span>: <span class="value">0x1260 (4704 bytes)</span></p>
+                <p><span class="key"><b>Virtual Address</b></span>: <span class="value">0xf000</span></p>
+                <p><span class="key"><b>Size Of Raw Data</b></span>: <span class="value">0 (0 bytes)</span></p>
+                <p><span class="key"><b>Pointer To Raw Data</b></span>: <span class="value">0</span></p>
+                <p><span class="key"><b>Number Of Relocations</b></span>: <span class="value">0</span></p>
+                <p><span class="key"><b>Characteristics</b></span>: <span class="value">0xc0000080</span></p>
+                <div class="array">
+                    <h2>Characteristic Names</h2>
+                    <ul>
+                        <li><span class="value">IMAGE_SCN_CNT_UNINITIALIZED_DATA</span></li>
+                        <li><span class="value">IMAGE_SCN_MEM_READ</span></li>
+                        <li><span class="value">IMAGE_SCN_MEM_WRITE</span></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="object">
+                <h2>Section</h2>
+                <p><span class="key"><b>Name</b></span>: <span class="value">.idata</span></p>
+                <p><span class="key"><b>Virtual Size</b></span>: <span class="value">0xeb4 (3764 bytes)</span></p>
+                <p><span class="key"><b>Virtual Address</b></span>: <span class="value">0x11000</span></p>
+                <p><span class="key"><b>Size Of Raw Data</b></span>: <span class="value">0x1000 (4096 bytes)</span></p>
+                <p><span class="key"><b>Pointer To Raw Data</b></span>: <span class="value">0xb800</span></p>
+                <p><span class="key"><b>Number Of Relocations</b></span>: <span class="value">0</span></p>
+                <p><span class="key"><b>Characteristics</b></span>: <span class="value">0x40000040</span></p>
+                <div class="array">
+                    <h2>Characteristic Names</h2>
+                    <ul>
+                        <li><span class="value">IMAGE_SCN_CNT_INITIALIZED_DATA</span></li>
+                        <li><span class="value">IMAGE_SCN_MEM_READ</span></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="object">
+                <h2>Section</h2>
+                <p><span class="key"><b>Name</b></span>: <span class="value">.tls</span></p>
+                <p><span class="key"><b>Virtual Size</b></span>: <span class="value">0x10 (16 bytes)</span></p>
+                <p><span class="key"><b>Virtual Address</b></span>: <span class="value">0x12000</span></p>
+                <p><span class="key"><b>Size Of Raw Data</b></span>: <span class="value">0x200 (512 bytes)</span></p>
+                <p><span class="key"><b>Pointer To Raw Data</b></span>: <span class="value">0xc800</span></p>
+                <p><span class="key"><b>Number Of Relocations</b></span>: <span class="value">0</span></p>
+                <p><span class="key"><b>Characteristics</b></span>: <span class="value">0xc0000040</span></p>
+                <div class="array">
+                    <h2>Characteristic Names</h2>
+                    <ul>
+                        <li><span class="value">IMAGE_SCN_CNT_INITIALIZED_DATA</span></li>
+                        <li><span class="value">IMAGE_SCN_MEM_READ</span></li>
+                        <li><span class="value">IMAGE_SCN_MEM_WRITE</span></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="object">
+                <h2>Section</h2>
+                <p><span class="key"><b>Name</b></span>: <span class="value">.reloc</span></p>
+                <p><span class="key"><b>Virtual Size</b></span>: <span class="value">0x7c (124 bytes)</span></p>
+                <p><span class="key"><b>Virtual Address</b></span>: <span class="value">0x13000</span></p>
+                <p><span class="key"><b>Size Of Raw Data</b></span>: <span class="value">0x200 (512 bytes)</span></p>
+                <p><span class="key"><b>Pointer To Raw Data</b></span>: <span class="value">0xca00</span></p>
+                <p><span class="key"><b>Number Of Relocations</b></span>: <span class="value">0</span></p>
+                <p><span class="key"><b>Characteristics</b></span>: <span class="value">0x42000040</span></p>
+                <div class="array">
+                    <h2>Characteristic Names</h2>
+                    <ul>
+                        <li><span class="value">IMAGE_SCN_CNT_INITIALIZED_DATA</span></li>
+                        <li><span class="value">IMAGE_SCN_MEM_DISCARDABLE</span></li>
+                        <li><span class="value">IMAGE_SCN_MEM_READ</span></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="object">
+                <h2>Section</h2>
+                <p><span class="key"><b>Name</b></span>: <span class="value">.debug_aranges</span></p>
+                <p><span class="key"><b>Virtual Size</b></span>: <span class="value">0x650 (1616 bytes)</span></p>
+                <p><span class="key"><b>Virtual Address</b></span>: <span class="value">0x14000</span></p>
+                <p><span class="key"><b>Size Of Raw Data</b></span>: <span class="value">0x800 (2048 bytes)</span></p>
+                <p><span class="key"><b>Pointer To Raw Data</b></span>: <span class="value">0xcc00</span></p>
+                <p><span class="key"><b>Number Of Relocations</b></span>: <span class="value">0</span></p>
+                <p><span class="key"><b>Characteristics</b></span>: <span class="value">0x42000040</span></p>
+                <div class="array">
+                    <h2>Characteristic Names</h2>
+                    <ul>
+                        <li><span class="value">IMAGE_SCN_CNT_INITIALIZED_DATA</span></li>
+                        <li><span class="value">IMAGE_SCN_MEM_DISCARDABLE</span></li>
+                        <li><span class="value">IMAGE_SCN_MEM_READ</span></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="object">
+                <h2>Section</h2>
+                <p><span class="key"><b>Name</b></span>: <span class="value">.debug_info</span></p>
+                <p><span class="key"><b>Virtual Size</b></span>: <span class="value">0x1230a (74506 bytes)</span></p>
+                <p><span class="key"><b>Virtual Address</b></span>: <span class="value">0x15000</span></p>
+                <p><span class="key"><b>Size Of Raw Data</b></span>: <span class="value">0x12400 (74752 bytes)</span></p>
+                <p><span class="key"><b>Pointer To Raw Data</b></span>: <span class="value">0xd400</span></p>
+                <p><span class="key"><b>Number Of Relocations</b></span>: <span class="value">0</span></p>
+                <p><span class="key"><b>Characteristics</b></span>: <span class="value">0x42000040</span></p>
+                <div class="array">
+                    <h2>Characteristic Names</h2>
+                    <ul>
+                        <li><span class="value">IMAGE_SCN_CNT_INITIALIZED_DATA</span></li>
+                        <li><span class="value">IMAGE_SCN_MEM_DISCARDABLE</span></li>
+                        <li><span class="value">IMAGE_SCN_MEM_READ</span></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="object">
+                <h2>Section</h2>
+                <p><span class="key"><b>Name</b></span>: <span class="value">.debug_abbrev</span></p>
+                <p><span class="key"><b>Virtual Size</b></span>: <span class="value">0x32ed (13037 bytes)</span></p>
+                <p><span class="key"><b>Virtual Address</b></span>: <span class="value">0x28000</span></p>
+                <p><span class="key"><b>Size Of Raw Data</b></span>: <span class="value">0x3400 (13312 bytes)</span></p>
+                <p><span class="key"><b>Pointer To Raw Data</b></span>: <span class="value">0x1f800</span></p>
+                <p><span class="key"><b>Number Of Relocations</b></span>: <span class="value">0</span></p>
+                <p><span class="key"><b>Characteristics</b></span>: <span class="value">0x42000040</span></p>
+                <div class="array">
+                    <h2>Characteristic Names</h2>
+                    <ul>
+                        <li><span class="value">IMAGE_SCN_CNT_INITIALIZED_DATA</span></li>
+                        <li><span class="value">IMAGE_SCN_MEM_DISCARDABLE</span></li>
+                        <li><span class="value">IMAGE_SCN_MEM_READ</span></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="object">
+                <h2>Section</h2>
+                <p><span class="key"><b>Name</b></span>: <span class="value">.debug_line</span></p>
+                <p><span class="key"><b>Virtual Size</b></span>: <span class="value">0x6e1c (28188 bytes)</span></p>
+                <p><span class="key"><b>Virtual Address</b></span>: <span class="value">0x2c000</span></p>
+                <p><span class="key"><b>Size Of Raw Data</b></span>: <span class="value">0x7000 (28672 bytes)</span></p>
+                <p><span class="key"><b>Pointer To Raw Data</b></span>: <span class="value">0x22c00</span></p>
+                <p><span class="key"><b>Number Of Relocations</b></span>: <span class="value">0</span></p>
+                <p><span class="key"><b>Characteristics</b></span>: <span class="value">0x42000040</span></p>
+                <div class="array">
+                    <h2>Characteristic Names</h2>
+                    <ul>
+                        <li><span class="value">IMAGE_SCN_CNT_INITIALIZED_DATA</span></li>
+                        <li><span class="value">IMAGE_SCN_MEM_DISCARDABLE</span></li>
+                        <li><span class="value">IMAGE_SCN_MEM_READ</span></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="object">
+                <h2>Section</h2>
+                <p><span class="key"><b>Name</b></span>: <span class="value">.debug_frame</span></p>
+                <p><span class="key"><b>Virtual Size</b></span>: <span class="value">0x1718 (5912 bytes)</span></p>
+                <p><span class="key"><b>Virtual Address</b></span>: <span class="value">0x33000</span></p>
+                <p><span class="key"><b>Size Of Raw Data</b></span>: <span class="value">0x1800 (6144 bytes)</span></p>
+                <p><span class="key"><b>Pointer To Raw Data</b></span>: <span class="value">0x29c00</span></p>
+                <p><span class="key"><b>Number Of Relocations</b></span>: <span class="value">0</span></p>
+                <p><span class="key"><b>Characteristics</b></span>: <span class="value">0x42000040</span></p>
+                <div class="array">
+                    <h2>Characteristic Names</h2>
+                    <ul>
+                        <li><span class="value">IMAGE_SCN_CNT_INITIALIZED_DATA</span></li>
+                        <li><span class="value">IMAGE_SCN_MEM_DISCARDABLE</span></li>
+                        <li><span class="value">IMAGE_SCN_MEM_READ</span></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="object">
+                <h2>Section</h2>
+                <p><span class="key"><b>Name</b></span>: <span class="value">.debug_str</span></p>
+                <p><span class="key"><b>Virtual Size</b></span>: <span class="value">0x39d (925 bytes)</span></p>
+                <p><span class="key"><b>Virtual Address</b></span>: <span class="value">0x35000</span></p>
+                <p><span class="key"><b>Size Of Raw Data</b></span>: <span class="value">0x400 (1024 bytes)</span></p>
+                <p><span class="key"><b>Pointer To Raw Data</b></span>: <span class="value">0x2b400</span></p>
+                <p><span class="key"><b>Number Of Relocations</b></span>: <span class="value">0</span></p>
+                <p><span class="key"><b>Characteristics</b></span>: <span class="value">0x42000040</span></p>
+                <div class="array">
+                    <h2>Characteristic Names</h2>
+                    <ul>
+                        <li><span class="value">IMAGE_SCN_CNT_INITIALIZED_DATA</span></li>
+                        <li><span class="value">IMAGE_SCN_MEM_DISCARDABLE</span></li>
+                        <li><span class="value">IMAGE_SCN_MEM_READ</span></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="object">
+                <h2>Section</h2>
+                <p><span class="key"><b>Name</b></span>: <span class="value">.debug_line_str</span></p>
+                <p><span class="key"><b>Virtual Size</b></span>: <span class="value">0x16ad (5805 bytes)</span></p>
+                <p><span class="key"><b>Virtual Address</b></span>: <span class="value">0x36000</span></p>
+                <p><span class="key"><b>Size Of Raw Data</b></span>: <span class="value">0x1800 (6144 bytes)</span></p>
+                <p><span class="key"><b>Pointer To Raw Data</b></span>: <span class="value">0x2b800</span></p>
+                <p><span class="key"><b>Number Of Relocations</b></span>: <span class="value">0</span></p>
+                <p><span class="key"><b>Characteristics</b></span>: <span class="value">0x42000040</span></p>
+                <div class="array">
+                    <h2>Characteristic Names</h2>
+                    <ul>
+                        <li><span class="value">IMAGE_SCN_CNT_INITIALIZED_DATA</span></li>
+                        <li><span class="value">IMAGE_SCN_MEM_DISCARDABLE</span></li>
+                        <li><span class="value">IMAGE_SCN_MEM_READ</span></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="object">
+                <h2>Section</h2>
+                <p><span class="key"><b>Name</b></span>: <span class="value">.debug_loclists</span></p>
+                <p><span class="key"><b>Virtual Size</b></span>: <span class="value">0x790a (30986 bytes)</span></p>
+                <p><span class="key"><b>Virtual Address</b></span>: <span class="value">0x38000</span></p>
+                <p><span class="key"><b>Size Of Raw Data</b></span>: <span class="value">0x7a00 (31232 bytes)</span></p>
+                <p><span class="key"><b>Pointer To Raw Data</b></span>: <span class="value">0x2d000</span></p>
+                <p><span class="key"><b>Number Of Relocations</b></span>: <span class="value">0</span></p>
+                <p><span class="key"><b>Characteristics</b></span>: <span class="value">0x42000040</span></p>
+                <div class="array">
+                    <h2>Characteristic Names</h2>
+                    <ul>
+                        <li><span class="value">IMAGE_SCN_CNT_INITIALIZED_DATA</span></li>
+                        <li><span class="value">IMAGE_SCN_MEM_DISCARDABLE</span></li>
+                        <li><span class="value">IMAGE_SCN_MEM_READ</span></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="object">
+                <h2>Section</h2>
+                <p><span class="key"><b>Name</b></span>: <span class="value">.debug_rnglists</span></p>
+                <p><span class="key"><b>Virtual Size</b></span>: <span class="value">0x52b (1323 bytes)</span></p>
+                <p><span class="key"><b>Virtual Address</b></span>: <span class="value">0x40000</span></p>
+                <p><span class="key"><b>Size Of Raw Data</b></span>: <span class="value">0x600 (1536 bytes)</span></p>
+                <p><span class="key"><b>Pointer To Raw Data</b></span>: <span class="value">0x34a00</span></p>
+                <p><span class="key"><b>Number Of Relocations</b></span>: <span class="value">0</span></p>
+                <p><span class="key"><b>Characteristics</b></span>: <span class="value">0x42000040</span></p>
+                <div class="array">
+                    <h2>Characteristic Names</h2>
+                    <ul>
+                        <li><span class="value">IMAGE_SCN_CNT_INITIALIZED_DATA</span></li>
+                        <li><span class="value">IMAGE_SCN_MEM_DISCARDABLE</span></li>
+                        <li><span class="value">IMAGE_SCN_MEM_READ</span></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,763 @@
+{
+    "DOS Header": {
+        "Magic number": "0x5a4d (MZ)",
+        "Bytes in last page": "144",
+        "Pages in file": "3",
+        "Relocations": "0",
+        "Size of header in paragraphs": "4",
+        "Minimum extra paragraphs": "0",
+        "Maximum extra paragraphs": "65535",
+        "Initial (relative) SS value": "0",
+        "Initial SP value": "0xb8",
+        "Initial IP value": "0",
+        "Initial (relative) CS value": "0",
+        "Address of relocation table": "0x40",
+        "Overlay number": "0",
+        "OEM identifier": "0",
+        "OEM information": "0",
+        "PE header offset": "0x80"
+    },
+    "PE header": {
+        "Signature": "0x00004550 (PE)"
+    },
+    "COFF/File header": {
+        "Machine": "0x8664 IMAGE_FILE_MACHINE_AMD64",
+        "Number of sections": "18",
+        "Date/time stamp": "1759138219 (Mon, 29 Sep 2025 09:30:19 UTC)",
+        "Symbol Table offset": "0x35000",
+        "Number of symbols": "2482",
+        "Size of optional header": "0xf0",
+        "Characteristics": "0x26",
+        "Characteristics names": [
+            "IMAGE_FILE_EXECUTABLE_IMAGE",
+            "IMAGE_FILE_LINE_NUMS_STRIPPED",
+            "IMAGE_FILE_LARGE_ADDRESS_AWARE"
+        ]
+    },
+    "Optional/Image header": {
+        "Magic number": "0x20b (PE32+)",
+        "Linker major version": "2",
+        "Linker minor version": "44",
+        "Size of .text section": "0x8c00",
+        "Size of .data section": "0x3a00",
+        "Size of .bss section": "0x1400",
+        "Entrypoint": "0x13f0",
+        "Address of .text section": "0x1000",
+        "ImageBase": "0x140000000",
+        "Alignment of sections": "0x1000",
+        "Alignment factor": "0x200",
+        "Major version of required OS": "4",
+        "Minor version of required OS": "0",
+        "Major version of image": "0",
+        "Minor version of image": "0",
+        "Major version of subsystem": "5",
+        "Minor version of subsystem": "2",
+        "Win32 version value:             0": {
+            "Overwrite OS major version": "(default)",
+            "Overwrite OS minor version": "(default)",
+            "Overwrite OS build number": "(default)",
+            "Overwrite OS platform id": "(default)"
+        },
+        "Size of image": "0x41000",
+        "Size of headers": "0x600",
+        "Checksum": "0x47762",
+        "Subsystem required": "0x3 (IMAGE_SUBSYSTEM_WINDOWS_CUI)",
+        "DLL characteristics": "0x160",
+        "DLL characteristics names": [
+            "IMAGE_DLLCHARACTERISTICS_HIGH_ENTROPY_VA",
+            "IMAGE_DLLCHARACTERISTICS_DYNAMIC_BASE",
+            "IMAGE_DLLCHARACTERISTICS_NX_COMPAT"
+        ],
+        "Size of stack to reserve": "0x200000",
+        "Size of stack to commit": "0x1000",
+        "Size of heap space to reserve": "0x100000",
+        "Size of heap space to commit": "0x1000",
+        "Loader Flags": "0",
+        "Loader Flags names": [
+        ]
+    },
+    "Data directories": [
+        {
+            "IMAGE_DIRECTORY_ENTRY_IMPORT": "0x11000 (3764 bytes)"
+        },
+        {
+            "IMAGE_DIRECTORY_ENTRY_EXCEPTION": "0xd000 (1440 bytes)"
+        },
+        {
+            "IMAGE_DIRECTORY_ENTRY_BASERELOC": "0x13000 (124 bytes)"
+        },
+        {
+            "IMAGE_DIRECTORY_ENTRY_TLS": "0xb840 (40 bytes)"
+        },
+        {
+            "IMAGE_DIRECTORY_ENTRY_IAT": "0x113a8 (816 bytes)"
+        }
+    ],
+    "Imported functions": [
+        {
+            "Name": "ADVAPI32.dll",
+            "Functions": [
+                {
+                    "Hint": "194",
+                    "Name": "CryptAcquireContextW"
+                },
+                {
+                    "Hint": "196",
+                    "Name": "CryptCreateHash"
+                },
+                {
+                    "Hint": "197",
+                    "Name": "CryptDecrypt"
+                },
+                {
+                    "Hint": "198",
+                    "Name": "CryptDeriveKey"
+                },
+                {
+                    "Hint": "199",
+                    "Name": "CryptDestroyHash"
+                },
+                {
+                    "Hint": "200",
+                    "Name": "CryptDestroyKey"
+                },
+                {
+                    "Hint": "217",
+                    "Name": "CryptHashData"
+                },
+                {
+                    "Hint": "220",
+                    "Name": "CryptReleaseContext"
+                },
+                {
+                    "Hint": "222",
+                    "Name": "CryptSetKeyParam"
+                },
+                {
+                    "Hint": "614",
+                    "Name": "RegCloseKey"
+                },
+                {
+                    "Hint": "637",
+                    "Name": "RegDeleteValueA"
+                },
+                {
+                    "Hint": "662",
+                    "Name": "RegOpenKeyExA"
+                },
+                {
+                    "Hint": "675",
+                    "Name": "RegQueryValueExA"
+                }
+            ]
+        },
+        {
+            "Name": "KERNEL32.dll",
+            "Functions": [
+                {
+                    "Hint": "148",
+                    "Name": "CloseHandle"
+                },
+                {
+                    "Hint": "244",
+                    "Name": "CreateProcessA"
+                },
+                {
+                    "Hint": "260",
+                    "Name": "CreateThread"
+                },
+                {
+                    "Hint": "292",
+                    "Name": "DeleteCriticalSection"
+                },
+                {
+                    "Hint": "330",
+                    "Name": "EnterCriticalSection"
+                },
+                {
+                    "Hint": "377",
+                    "Name": "ExitProcess"
+                },
+                {
+                    "Hint": "378",
+                    "Name": "ExitThread"
+                },
+                {
+                    "Hint": "564",
+                    "Name": "GetCurrentProcess"
+                },
+                {
+                    "Hint": "643",
+                    "Name": "GetLastError"
+                },
+                {
+                    "Hint": "663",
+                    "Name": "GetModuleFileNameA"
+                },
+                {
+                    "Hint": "665",
+                    "Name": "GetModuleHandleA"
+                },
+                {
+                    "Hint": "725",
+                    "Name": "GetProcAddress"
+                },
+                {
+                    "Hint": "820",
+                    "Name": "GetTickCount"
+                },
+                {
+                    "Hint": "873",
+                    "Name": "GlobalMemoryStatusEx"
+                },
+                {
+                    "Hint": "913",
+                    "Name": "InitializeCriticalSection"
+                },
+                {
+                    "Hint": "940",
+                    "Name": "IsDBCSLeadByteEx"
+                },
+                {
+                    "Hint": "941",
+                    "Name": "IsDebuggerPresent"
+                },
+                {
+                    "Hint": "982",
+                    "Name": "K32GetModuleInformation"
+                },
+                {
+                    "Hint": "1007",
+                    "Name": "LeaveCriticalSection"
+                },
+                {
+                    "Hint": "1011",
+                    "Name": "LoadLibraryA"
+                },
+                {
+                    "Hint": "1020",
+                    "Name": "LocalAlloc"
+                },
+                {
+                    "Hint": "1025",
+                    "Name": "LocalFree"
+                },
+                {
+                    "Hint": "1059",
+                    "Name": "MultiByteToWideChar"
+                },
+                {
+                    "Hint": "1199",
+                    "Name": "ReadProcessMemory"
+                },
+                {
+                    "Hint": "1427",
+                    "Name": "SetUnhandledExceptionFilter"
+                },
+                {
+                    "Hint": "1443",
+                    "Name": "Sleep"
+                },
+                {
+                    "Hint": "1459",
+                    "Name": "TerminateProcess"
+                },
+                {
+                    "Hint": "1479",
+                    "Name": "TlsGetValue"
+                },
+                {
+                    "Hint": "1520",
+                    "Name": "VirtualAlloc"
+                },
+                {
+                    "Hint": "1523",
+                    "Name": "VirtualFree"
+                },
+                {
+                    "Hint": "1526",
+                    "Name": "VirtualProtect"
+                },
+                {
+                    "Hint": "1528",
+                    "Name": "VirtualQuery"
+                },
+                {
+                    "Hint": "1537",
+                    "Name": "WaitForSingleObject"
+                },
+                {
+                    "Hint": "1581",
+                    "Name": "WideCharToMultiByte"
+                }
+            ]
+        },
+        {
+            "Name": "msvcrt.dll",
+            "Functions": [
+                {
+                    "Hint": "106",
+                    "Name": "__C_specific_handler"
+                },
+                {
+                    "Hint": "126",
+                    "Name": "___lc_codepage_func"
+                },
+                {
+                    "Hint": "129",
+                    "Name": "___mb_cur_max_func"
+                },
+                {
+                    "Hint": "146",
+                    "Name": "__getmainargs"
+                },
+                {
+                    "Hint": "147",
+                    "Name": "__initenv"
+                },
+                {
+                    "Hint": "148",
+                    "Name": "__iob_func"
+                },
+                {
+                    "Hint": "161",
+                    "Name": "__set_app_type"
+                },
+                {
+                    "Hint": "163",
+                    "Name": "__setusermatherr"
+                },
+                {
+                    "Hint": "192",
+                    "Name": "_amsg_exit"
+                },
+                {
+                    "Hint": "211",
+                    "Name": "_cexit"
+                },
+                {
+                    "Hint": "225",
+                    "Name": "_commode"
+                },
+                {
+                    "Hint": "267",
+                    "Name": "_errno"
+                },
+                {
+                    "Hint": "301",
+                    "Name": "_fmode"
+                },
+                {
+                    "Hint": "380",
+                    "Name": "_initterm"
+                },
+                {
+                    "Hint": "483",
+                    "Name": "_lock"
+                },
+                {
+                    "Hint": "652",
+                    "Name": "_onexit"
+                },
+                {
+                    "Hint": "754",
+                    "Name": "_stricmp"
+                },
+                {
+                    "Hint": "943",
+                    "Name": "_unlock"
+                },
+                {
+                    "Hint": "1041",
+                    "Name": "abort"
+                },
+                {
+                    "Hint": "1054",
+                    "Name": "atoi"
+                },
+                {
+                    "Hint": "1057",
+                    "Name": "calloc"
+                },
+                {
+                    "Hint": "1069",
+                    "Name": "exit"
+                },
+                {
+                    "Hint": "1076",
+                    "Name": "fflush"
+                },
+                {
+                    "Hint": "1087",
+                    "Name": "fprintf"
+                },
+                {
+                    "Hint": "1088",
+                    "Name": "fputc"
+                },
+                {
+                    "Hint": "1093",
+                    "Name": "free"
+                },
+                {
+                    "Hint": "1101",
+                    "Name": "fwrite"
+                },
+                {
+                    "Hint": "1139",
+                    "Name": "localeconv"
+                },
+                {
+                    "Hint": "1146",
+                    "Name": "malloc"
+                },
+                {
+                    "Hint": "1152",
+                    "Name": "memcpy"
+                },
+                {
+                    "Hint": "1154",
+                    "Name": "memset"
+                },
+                {
+                    "Hint": "1170",
+                    "Name": "realloc"
+                },
+                {
+                    "Hint": "1179",
+                    "Name": "signal"
+                },
+                {
+                    "Hint": "1187",
+                    "Name": "srand"
+                },
+                {
+                    "Hint": "1195",
+                    "Name": "strerror"
+                },
+                {
+                    "Hint": "1197",
+                    "Name": "strlen"
+                },
+                {
+                    "Hint": "1199",
+                    "Name": "strncmp"
+                },
+                {
+                    "Hint": "1204",
+                    "Name": "strstr"
+                },
+                {
+                    "Hint": "1220",
+                    "Name": "system"
+                },
+                {
+                    "Hint": "1233",
+                    "Name": "vfprintf"
+                },
+                {
+                    "Hint": "1251",
+                    "Name": "wcslen"
+                }
+            ]
+        },
+        {
+            "Name": "SHELL32.dll",
+            "Functions": [
+                {
+                    "Hint": "10",
+                    "Name": "CommandLineToArgvW"
+                }
+            ]
+        },
+        {
+            "Name": "WINHTTP.dll",
+            "Functions": [
+                {
+                    "Hint": "8",
+                    "Name": "WinHttpCloseHandle"
+                },
+                {
+                    "Hint": "9",
+                    "Name": "WinHttpConnect"
+                },
+                {
+                    "Hint": "38",
+                    "Name": "WinHttpOpen"
+                },
+                {
+                    "Hint": "39",
+                    "Name": "WinHttpOpenRequest"
+                },
+                {
+                    "Hint": "56",
+                    "Name": "WinHttpQueryDataAvailable"
+                },
+                {
+                    "Hint": "59",
+                    "Name": "WinHttpReadData"
+                },
+                {
+                    "Hint": "62",
+                    "Name": "WinHttpReceiveResponse"
+                },
+                {
+                    "Hint": "65",
+                    "Name": "WinHttpSendRequest"
+                }
+            ]
+        }
+    ],
+    "Exported functions": [
+    ],
+    "Sections": [
+        {
+            "Name": ".text",
+            "Virtual Size": "0x8a90 (35472 bytes)",
+            "Virtual Address": "0x1000",
+            "Size Of Raw Data": "0x8c00 (35840 bytes)",
+            "Pointer To Raw Data": "0x600",
+            "Number Of Relocations": "0",
+            "Characteristics": "0x60000020",
+            "Characteristic Names": [
+                "IMAGE_SCN_CNT_CODE",
+                "IMAGE_SCN_MEM_EXECUTE",
+                "IMAGE_SCN_MEM_READ"
+            ]
+        },
+        {
+            "Name": ".data",
+            "Virtual Size": "0xc0 (192 bytes)",
+            "Virtual Address": "0xa000",
+            "Size Of Raw Data": "0x200 (512 bytes)",
+            "Pointer To Raw Data": "0x9200",
+            "Number Of Relocations": "0",
+            "Characteristics": "0xc0000040",
+            "Characteristic Names": [
+                "IMAGE_SCN_CNT_INITIALIZED_DATA",
+                "IMAGE_SCN_MEM_READ",
+                "IMAGE_SCN_MEM_WRITE"
+            ]
+        },
+        {
+            "Name": ".rdata",
+            "Virtual Size": "0x1648 (5704 bytes)",
+            "Virtual Address": "0xb000",
+            "Size Of Raw Data": "0x1800 (6144 bytes)",
+            "Pointer To Raw Data": "0x9400",
+            "Number Of Relocations": "0",
+            "Characteristics": "0x40000040",
+            "Characteristic Names": [
+                "IMAGE_SCN_CNT_INITIALIZED_DATA",
+                "IMAGE_SCN_MEM_READ"
+            ]
+        },
+        {
+            "Name": ".pdata",
+            "Virtual Size": "0x5a0 (1440 bytes)",
+            "Virtual Address": "0xd000",
+            "Size Of Raw Data": "0x600 (1536 bytes)",
+            "Pointer To Raw Data": "0xac00",
+            "Number Of Relocations": "0",
+            "Characteristics": "0x40000040",
+            "Characteristic Names": [
+                "IMAGE_SCN_CNT_INITIALIZED_DATA",
+                "IMAGE_SCN_MEM_READ"
+            ]
+        },
+        {
+            "Name": ".xdata",
+            "Virtual Size": "0x564 (1380 bytes)",
+            "Virtual Address": "0xe000",
+            "Size Of Raw Data": "0x600 (1536 bytes)",
+            "Pointer To Raw Data": "0xb200",
+            "Number Of Relocations": "0",
+            "Characteristics": "0x40000040",
+            "Characteristic Names": [
+                "IMAGE_SCN_CNT_INITIALIZED_DATA",
+                "IMAGE_SCN_MEM_READ"
+            ]
+        },
+        {
+            "Name": ".bss",
+            "Virtual Size": "0x1260 (4704 bytes)",
+            "Virtual Address": "0xf000",
+            "Size Of Raw Data": "0 (0 bytes)",
+            "Pointer To Raw Data": "0",
+            "Number Of Relocations": "0",
+            "Characteristics": "0xc0000080",
+            "Characteristic Names": [
+                "IMAGE_SCN_CNT_UNINITIALIZED_DATA",
+                "IMAGE_SCN_MEM_READ",
+                "IMAGE_SCN_MEM_WRITE"
+            ]
+        },
+        {
+            "Name": ".idata",
+            "Virtual Size": "0xeb4 (3764 bytes)",
+            "Virtual Address": "0x11000",
+            "Size Of Raw Data": "0x1000 (4096 bytes)",
+            "Pointer To Raw Data": "0xb800",
+            "Number Of Relocations": "0",
+            "Characteristics": "0x40000040",
+            "Characteristic Names": [
+                "IMAGE_SCN_CNT_INITIALIZED_DATA",
+                "IMAGE_SCN_MEM_READ"
+            ]
+        },
+        {
+            "Name": ".tls",
+            "Virtual Size": "0x10 (16 bytes)",
+            "Virtual Address": "0x12000",
+            "Size Of Raw Data": "0x200 (512 bytes)",
+            "Pointer To Raw Data": "0xc800",
+            "Number Of Relocations": "0",
+            "Characteristics": "0xc0000040",
+            "Characteristic Names": [
+                "IMAGE_SCN_CNT_INITIALIZED_DATA",
+                "IMAGE_SCN_MEM_READ",
+                "IMAGE_SCN_MEM_WRITE"
+            ]
+        },
+        {
+            "Name": ".reloc",
+            "Virtual Size": "0x7c (124 bytes)",
+            "Virtual Address": "0x13000",
+            "Size Of Raw Data": "0x200 (512 bytes)",
+            "Pointer To Raw Data": "0xca00",
+            "Number Of Relocations": "0",
+            "Characteristics": "0x42000040",
+            "Characteristic Names": [
+                "IMAGE_SCN_CNT_INITIALIZED_DATA",
+                "IMAGE_SCN_MEM_DISCARDABLE",
+                "IMAGE_SCN_MEM_READ"
+            ]
+        },
+        {
+            "Name": ".debug_aranges",
+            "Virtual Size": "0x650 (1616 bytes)",
+            "Virtual Address": "0x14000",
+            "Size Of Raw Data": "0x800 (2048 bytes)",
+            "Pointer To Raw Data": "0xcc00",
+            "Number Of Relocations": "0",
+            "Characteristics": "0x42000040",
+            "Characteristic Names": [
+                "IMAGE_SCN_CNT_INITIALIZED_DATA",
+                "IMAGE_SCN_MEM_DISCARDABLE",
+                "IMAGE_SCN_MEM_READ"
+            ]
+        },
+        {
+            "Name": ".debug_info",
+            "Virtual Size": "0x1230a (74506 bytes)",
+            "Virtual Address": "0x15000",
+            "Size Of Raw Data": "0x12400 (74752 bytes)",
+            "Pointer To Raw Data": "0xd400",
+            "Number Of Relocations": "0",
+            "Characteristics": "0x42000040",
+            "Characteristic Names": [
+                "IMAGE_SCN_CNT_INITIALIZED_DATA",
+                "IMAGE_SCN_MEM_DISCARDABLE",
+                "IMAGE_SCN_MEM_READ"
+            ]
+        },
+        {
+            "Name": ".debug_abbrev",
+            "Virtual Size": "0x32ed (13037 bytes)",
+            "Virtual Address": "0x28000",
+            "Size Of Raw Data": "0x3400 (13312 bytes)",
+            "Pointer To Raw Data": "0x1f800",
+            "Number Of Relocations": "0",
+            "Characteristics": "0x42000040",
+            "Characteristic Names": [
+                "IMAGE_SCN_CNT_INITIALIZED_DATA",
+                "IMAGE_SCN_MEM_DISCARDABLE",
+                "IMAGE_SCN_MEM_READ"
+            ]
+        },
+        {
+            "Name": ".debug_line",
+            "Virtual Size": "0x6e1c (28188 bytes)",
+            "Virtual Address": "0x2c000",
+            "Size Of Raw Data": "0x7000 (28672 bytes)",
+            "Pointer To Raw Data": "0x22c00",
+            "Number Of Relocations": "0",
+            "Characteristics": "0x42000040",
+            "Characteristic Names": [
+                "IMAGE_SCN_CNT_INITIALIZED_DATA",
+                "IMAGE_SCN_MEM_DISCARDABLE",
+                "IMAGE_SCN_MEM_READ"
+            ]
+        },
+        {
+            "Name": ".debug_frame",
+            "Virtual Size": "0x1718 (5912 bytes)",
+            "Virtual Address": "0x33000",
+            "Size Of Raw Data": "0x1800 (6144 bytes)",
+            "Pointer To Raw Data": "0x29c00",
+            "Number Of Relocations": "0",
+            "Characteristics": "0x42000040",
+            "Characteristic Names": [
+                "IMAGE_SCN_CNT_INITIALIZED_DATA",
+                "IMAGE_SCN_MEM_DISCARDABLE",
+                "IMAGE_SCN_MEM_READ"
+            ]
+        },
+        {
+            "Name": ".debug_str",
+            "Virtual Size": "0x39d (925 bytes)",
+            "Virtual Address": "0x35000",
+            "Size Of Raw Data": "0x400 (1024 bytes)",
+            "Pointer To Raw Data": "0x2b400",
+            "Number Of Relocations": "0",
+            "Characteristics": "0x42000040",
+            "Characteristic Names": [
+                "IMAGE_SCN_CNT_INITIALIZED_DATA",
+                "IMAGE_SCN_MEM_DISCARDABLE",
+                "IMAGE_SCN_MEM_READ"
+            ]
+        },
+        {
+            "Name": ".debug_line_str",
+            "Virtual Size": "0x16ad (5805 bytes)",
+            "Virtual Address": "0x36000",
+            "Size Of Raw Data": "0x1800 (6144 bytes)",
+            "Pointer To Raw Data": "0x2b800",
+            "Number Of Relocations": "0",
+            "Characteristics": "0x42000040",
+            "Characteristic Names": [
+                "IMAGE_SCN_CNT_INITIALIZED_DATA",
+                "IMAGE_SCN_MEM_DISCARDABLE",
+                "IMAGE_SCN_MEM_READ"
+            ]
+        },
+        {
+            "Name": ".debug_loclists",
+            "Virtual Size": "0x790a (30986 bytes)",
+            "Virtual Address": "0x38000",
+            "Size Of Raw Data": "0x7a00 (31232 bytes)",
+            "Pointer To Raw Data": "0x2d000",
+            "Number Of Relocations": "0",
+            "Characteristics": "0x42000040",
+            "Characteristic Names": [
+                "IMAGE_SCN_CNT_INITIALIZED_DATA",
+                "IMAGE_SCN_MEM_DISCARDABLE",
+                "IMAGE_SCN_MEM_READ"
+            ]
+        },
+        {
+            "Name": ".debug_rnglists",
+            "Virtual Size": "0x52b (1323 bytes)",
+            "Virtual Address": "0x40000",
+            "Size Of Raw Data": "0x600 (1536 bytes)",
+            "Pointer To Raw Data": "0x34a00",
+            "Number Of Relocations": "0",
+            "Characteristics": "0x42000040",
+            "Characteristic Names": [
+                "IMAGE_SCN_CNT_INITIALIZED_DATA",
+                "IMAGE_SCN_MEM_DISCARDABLE",
+                "IMAGE_SCN_MEM_READ"
+            ]
+        }
+    ]
+}
