@@ -1,8 +1,8 @@
 # Subsystem: root
 
 ## app.py
-- Doc: Autor: Gris Iscomeback Correo electrónico: grisiscomeback[at]gmail[dot]com Fecha de creación...
 - Layer: utility
+- Doc: app.py  Autor: Gris Iscomeback Correo electrónico: grisiscomeback[at]gmail[dot]com Fecha de creación: xx/xx/xxxx Licenci
 - Language: py
 
 ## install.sh
@@ -14,8 +14,8 @@
 - Language: py
 
 ## viewerpe.py
-- Doc: add_dict_to_tree: Agrega recursivamente un dict al árbol de rich.
 - Layer: presentation
+- Doc: viewerpe.py
 - Language: py
 - Symbols:
   - `add_dict_to_tree` (function, line 9) `def add_dict_to_tree(parent_node, d, prefix)`

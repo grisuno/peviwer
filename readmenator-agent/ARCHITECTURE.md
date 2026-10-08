@@ -6,5 +6,12 @@
 
 ## External Imports
 
-- `pe_gui_viewer.py` -> json, os, streamlit
-- `viewerpe.py` -> json, rich, rich.panel, rich.text, rich.tree, sys
+- `pe_gui_viewer.py` -> `json`
+- `pe_gui_viewer.py` -> `os`
+- `pe_gui_viewer.py` -> `streamlit`
+- `viewerpe.py` -> `json`
+- `viewerpe.py` -> `rich`
+- `viewerpe.py` -> `rich.panel`
+- `viewerpe.py` -> `rich.text`
+- `viewerpe.py` -> `rich.tree`
+- `viewerpe.py` -> `sys`
